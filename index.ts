@@ -1,4 +1,4 @@
 const main = () => {
-    console.log("Hello")
-}
-main()
+    console.log('Hello');
+};
+main();
