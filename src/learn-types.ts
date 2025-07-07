@@ -7,6 +7,11 @@ const foo = {
 // readonlyなので再代入不可能
 foo.id = 2;
 
+// fooの型をexport
+export type Foo = typeof foo;
+// fooのキーだけを許容する型をexport
+export type FooKey = keyof typeof foo;
+
 export type Hoge = {
     id: number;
     name: string;
